@@ -1,0 +1,32 @@
+import { expect, test } from '@playwright/test';
+
+test('游戏经历保留原始时长、分类和封面', async ({ page, request }) => {
+  await page.goto('/games/');
+  await expect(page.locator('.game-card')).toHaveCount(81);
+  await expect(page.locator('.game-card h2').first()).toHaveText('Minecraft');
+  const playtimes = await page.locator('.game-card__hours').allTextContents();
+  const numericHours = playtimes.slice(0, 59).map(value => Number.parseFloat(value.trim()));
+  expect(numericHours).toEqual([...numericHours].sort((a, b) => b - a));
+  expect(playtimes.slice(59).every(value => value.trim().startsWith('约'))).toBe(true);
+  await expect(page.locator('.game-card__status')).toHaveCount(0);
+  await expect(page.locator('.game-card__rating')).toHaveCount(0);
+  await expect(page.locator('[data-game="experience-01"] .game-card__hours')).toHaveText('约三年');
+  await expect(page.locator('[data-game="experience-23"] .game-card__hours')).toHaveText('2348 小时');
+  await expect(page.locator('[data-game="experience-46"] .game-card__hours')).toHaveText('5000+ 小时');
+  const sources = await page.locator('.game-card__cover').evaluateAll(imgs => imgs.map(img => img.getAttribute('src')!));
+  expect(new Set(sources).size).toBe(81);
+  for (const src of sources) expect((await request.get(src)).status()).toBe(200);
+  const search = page.locator('.games-section input[type="search"]');
+  await search.fill('怪物猎人');
+  await expect(page.locator('.game-card')).toHaveCount(4);
+  await expect(page.locator('.game-card h2')).toHaveText(['怪物猎人世界', '怪物猎人荒野', '怪物猎人崛起', '怪物猎人GU']);
+  await search.fill('');
+  await expect(page.locator('.game-card')).toHaveCount(81);
+  await page.getByRole('button', { name: '二次元手游', exact: true }).click();
+  await expect(page.locator('.game-card')).toHaveCount(12);
+  await page.setViewportSize({ width: 390, height: 844 });
+  await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  await page.screenshot({ path: 'H:/Blog/game-import/games-mobile.png' });
+  await page.setViewportSize({ width: 1440, height: 1000 });
+  await page.screenshot({ path: 'H:/Blog/game-import/games-desktop.png' });
+});

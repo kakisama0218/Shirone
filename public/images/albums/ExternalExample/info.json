@@ -1,0 +1,16 @@
+{
+  "hidden": false,
+  "title": "日常摄影",
+  "description": "用镜头记录日常，收集生活里的光影与小美好。",
+  "date": "2025-08-28",
+  "location": "日常生活",
+  "tags": [
+    "日常",
+    "摄影"
+  ],
+  "layout": "masonry",
+  "columns": 3,
+  "mode": "external",
+  "photos": [],
+  "cover": "/assets/albums/empty.svg"
+}

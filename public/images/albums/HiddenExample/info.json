@@ -1,0 +1,16 @@
+{
+  "title": "隐藏相册",
+  "description": "此相册不在列表中展示，可通过专属链接查看。",
+  "date": "2025-08-28",
+  "location": "私密收藏",
+  "tags": [
+    "隐藏",
+    "示例"
+  ],
+  "layout": "grid",
+  "columns": 3,
+  "hidden": true,
+  "mode": "external",
+  "photos": [],
+  "cover": "/assets/albums/empty.svg"
+}

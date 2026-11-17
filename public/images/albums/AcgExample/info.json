@@ -1,0 +1,16 @@
+{
+  "title": "收藏的图片",
+  "description": "收藏喜欢的画面，留住每一次心动与灵感。",
+  "date": "2025-08-01",
+  "location": "本地收藏",
+  "tags": [
+    "收藏",
+    "灵感"
+  ],
+  "layout": "masonry",
+  "columns": 3,
+  "hidden": false,
+  "mode": "external",
+  "photos": [],
+  "cover": "/assets/albums/empty.svg"
+}

@@ -1,0 +1,19 @@
+{
+  "hidden": false,
+  "title": "加密相册",
+  "description": "输入密码后，即可查看相册中的照片。",
+  "date": "2025-05-22",
+  "location": "私家花园",
+  "tags": [
+    "加密",
+    "密码",
+    "示例"
+  ],
+  "layout": "masonry",
+  "columns": 3,
+  "password": "123456",
+  "passwordHint": "六位数字",
+  "mode": "external",
+  "photos": [],
+  "cover": "/assets/albums/empty.svg"
+}
