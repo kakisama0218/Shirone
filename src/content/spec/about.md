@@ -1,26 +1,20 @@
-# About Shirone
+# 关于我
 
-Welcome to the demo site of **Shirone** (白音) — an expressive, anime-inspired blog theme built on the **Material 3 Expressive (M3E)** design system.
+你好，我是 **滑稽怪sama**，一个喜欢折腾游戏和小网站的摸鱼人。
 
-::github{repo="LyraVoid/Shirone"}
+平时会玩 MMD、车万、V 家、邦邦和怪猎，也会花时间研究游戏开发，做一些自己的小 Demo。这个博客主要用来记录游戏体验、项目开发、日常灵感，以及一些不太成熟但确实想留下来的想法。
 
-## ✦ Design & Philosophy
+## 我在这里记录什么
 
-Shirone aims to combine the warmth of expressive anime aesthetics with the rigor of modern web engineering:
+- 自己参与或制作的游戏项目
+- 玩过的游戏和比较长线的游玩经历
+- 游戏分析、体验报告和学习过程
+- 平时看到、想到，或者突然想折腾的东西
 
-- **Dynamic Chromatic Spell**: Full dynamic HCT palette generation responding seamlessly to light/dark modes and user preferences with zero layout shifts.
-- **Seamless Shell Navigation**: Persistent application shell driven by Swup for continuous music playback, smooth page transitions, and preserved state.
-- **Rich Story Grimoire**: Markdown and MDX authoring with KaTeX math, Mermaid diagrams, interactive admonitions, expressive code blocks, and adaptive image galleries.
-- **Zero Extra Burden**: Optional integrations (comments, analytics, music widgets) load dynamically on demand — zero DOM footprint and zero bundle overhead when disabled.
+更新随缘，想到什么就写什么。希望这里能慢慢变成一个属于自己的小角落。
 
-## ✦ Tech Stack
+## 我的链接
 
-- **Framework**: [Astro 7](https://astro.build/) & [Svelte 5](https://svelte.dev/) (Runes-driven islands)
-- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) & [Stylus](https://stylus-lang.com/)
-- **Design Standard**: [Material 3 Expressive](https://m3.material.io/)
-- **Typography**: Outfit & Yozai (悠哉圆体) with automated build-time subsetting
-- **Search Engine**: [Pagefind](https://pagefind.app/) offline full-text search
-
-## ✦ Credits
-
-- **Font**: [Yozai Font (悠哉字体)](https://github.com/lxgw/yozai-font) by [lxgw](https://github.com/lxgw)
+- [哔哩哔哩](https://space.bilibili.com/32248707)
+- [GitHub](https://github.com/kakisama0218)
+- [Steam](https://steamcommunity.com/id/2380750870/)
