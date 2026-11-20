@@ -9,23 +9,27 @@ export const gamesData: GameItem[] = [
     "category": "simulation",
     "cover": "/assets/games/experience/experience-46.webp",
     "playtime": "5000+ 小时",
+    "status": "completed",
+    "rating": 10,
     "tags": [
       "策略／模拟／经营／沙盒"
     ],
-    "description": "累计游玩5000+ 小时。",
+    "description": "个人觉得最棒的游戏，从小玩到大，满满的回忆。尤其是通关之后的字幕印象很深。属于是经常时不时都会拿出来玩一玩的那一档",
     "link": "https://www.minecraft.net/en-us"
   },
   {
     "id": "experience-23",
-    "name": "怪物猎人世界",
+    "name": "怪物猎人：世界",
     "developer": "",
     "category": "action",
     "cover": "/assets/games/experience/experience-23.webp",
     "playtime": "2348 小时",
+    "status": "completed",
+    "rating": 9.8,
     "tags": [
       "硬核／狩猎动作／ARPG"
     ],
-    "description": "累计游玩2348 小时。",
+    "description": "steam入坑作，也是玩的最久的一款游戏。非常喜欢这部作品的生态设定，满足了自己对恐龙题材这类作品的幻想。太刀帅。",
     "link": "https://store.steampowered.com/app/582010/",
     "hours": 2348
   },
@@ -36,12 +40,30 @@ export const gamesData: GameItem[] = [
     "category": "rpg",
     "cover": "/assets/games/experience/experience-38.webp",
     "playtime": "646 小时",
+    "status": "playing",
+    "rating": 7.5,
     "tags": [
       "角色扮演／MMORPG"
     ],
-    "description": "累计游玩646 小时。",
+    "description": "和朋友一起玩才好玩的游戏，主线铺垫说实话有点太长了可以精简一下的，入坑多年至今没跑完主线。喜欢mmo的代入感这一点",
     "link": "https://store.steampowered.com/app/39210/",
     "hours": 646.0
+  },
+  {
+    "id": "slay-the-spire-2",
+    "name": "杀戮尖塔2",
+    "developer": "",
+    "category": "roguelike",
+    "cover": "/assets/games/experience/slay-the-spire-2.webp",
+    "playtime": "587.2 小时",
+    "status": "completed",
+    "rating": 8,
+    "tags": [
+      "Roguelike／卡牌构筑"
+    ],
+    "description": "底子好玩，联机也很欢乐。但是设计师越更新越有点限制思路了，一旦运气不好就很容易被滚雪球",
+    "link": "https://store.steampowered.com/app/2868840/",
+    "hours": 587.2
   },
   {
     "id": "monster-hunter-wilds",
@@ -50,40 +72,30 @@ export const gamesData: GameItem[] = [
     "category": "action",
     "cover": "/assets/games/experience/monster-hunter-wilds.webp",
     "playtime": "579 小时",
+    "status": "completed",
+    "rating": 6.5,
     "tags": [
       "硬核／狩猎动作／ARPG"
     ],
-    "description": "累计游玩579 小时。",
+    "description": "心理落差最大的一部游戏，好混乱的项目管理、槽点太多不知从何谈起。蒙了一层灰的美术要是改了我可以再加两分。",
     "link": "https://store.steampowered.com/app/2246340/",
     "hours": 579
   },
   {
-    "id": "experience-24",
-    "name": "黑暗之魂系列",
+    "id": "dark-souls-3",
+    "name": "黑暗之魂3",
     "developer": "",
     "category": "action",
-    "cover": "/assets/games/experience/experience-24.webp",
-    "playtime": "572.1 小时",
+    "cover": "/assets/games/experience/dark-souls-3.webp",
+    "playtime": "387.8 小时",
+    "status": "completed",
+    "rating": 9.5,
     "tags": [
       "硬核／狩猎动作／ARPG"
     ],
-    "description": "系列累计游玩572.1 小时。",
+    "description": "不死人落泪的三音符。系列入坑作，boss都很有特色很有记忆点，没有快慢刀，就是刷誓约有点太花时间了。后面当了很久的太阳好哥哥",
     "link": "https://store.steampowered.com/app/374320/",
-    "hours": 572.1
-  },
-  {
-    "id": "experience-57",
-    "name": "杀戮尖塔系列",
-    "developer": "",
-    "category": "roguelike",
-    "cover": "/assets/games/experience/experience-57.webp",
-    "playtime": "385.2 小时",
-    "tags": [
-      "Roguelike／卡牌构筑"
-    ],
-    "description": "系列累计游玩385.2 小时。",
-    "link": "https://store.steampowered.com/app/646570/",
-    "hours": 385.2
+    "hours": 387.8
   },
   {
     "id": "monster-hunter-rise",
@@ -92,10 +104,12 @@ export const gamesData: GameItem[] = [
     "category": "action",
     "cover": "/assets/games/experience/monster-hunter-rise.webp",
     "playtime": "330 小时",
+    "status": "completed",
+    "rating": 8.8,
     "tags": [
       "硬核／狩猎动作／ARPG"
     ],
-    "description": "累计游玩330 小时。",
+    "description": "为了这部作品入的ns，动作爽快易上手，在ns上玩画面表现非常棒。曙光大后期操作频率太高了，玩起来很累，老年人反应不过来了",
     "link": "https://store.steampowered.com/app/1446780/",
     "hours": 330
   },
@@ -106,10 +120,12 @@ export const gamesData: GameItem[] = [
     "category": "action",
     "cover": "/assets/games/experience/monster-hunter-gu.webp",
     "playtime": "330 小时",
+    "status": "completed",
+    "rating": 8.5,
     "tags": [
       "硬核／狩猎动作／ARPG"
     ],
-    "description": "累计游玩330 小时。",
+    "description": "旧世代集大成作，量大管饱，量有点太大了以至于至今都没有全任务clear，情怀拉满很足可惜剧情略显薄弱。有点可惜没有和朋友一起开荒",
     "link": "https://ec.nintendo.com/NZ/en/titles/70010000004641",
     "hours": 330
   },
@@ -120,10 +136,12 @@ export const gamesData: GameItem[] = [
     "category": "simulation",
     "cover": "/assets/games/experience/experience-53.webp",
     "playtime": "300+ 小时",
+    "status": "completed",
+    "rating": 9.3,
     "tags": [
       "策略／模拟／经营／沙盒"
     ],
-    "description": "累计游玩300+ 小时。",
+    "description": "这里特指PE 1.2版本，自由度很高的刷刷刷游戏，初中时候运动会全靠它联机，存档丢了之后就没有再玩过了",
     "link": "https://store.steampowered.com/app/105600/"
   },
   {
@@ -133,10 +151,12 @@ export const gamesData: GameItem[] = [
     "category": "action",
     "cover": "/assets/games/experience/experience-27.webp",
     "playtime": "293 小时",
+    "status": "completed",
+    "rating": 9.5,
     "tags": [
       "硬核／狩猎动作／ARPG"
     ],
-    "description": "累计游玩293 小时。",
+    "description": "FS社集大成作，开荒的时候是最好玩的，每天都有新发现，处处是惊喜。叙事和boss设计体验相比于黑魂略微有些下降。DLC略微扣分",
     "link": "https://store.steampowered.com/app/1245620/",
     "hours": 293.0
   },
@@ -147,51 +167,14 @@ export const gamesData: GameItem[] = [
     "category": "action",
     "cover": "/assets/games/experience/experience-26.webp",
     "playtime": "281.4 小时",
+    "status": "completed",
+    "rating": 9.5,
     "tags": [
       "硬核／狩猎动作／ARPG"
     ],
-    "description": "累计游玩281.4 小时。",
+    "description": "最喜欢的一款二次元题材游戏，王道剧情，战斗爽共斗好玩，可惜没法做到持续更新，球球你继续更新吧",
     "link": "https://store.steampowered.com/app/881020/",
     "hours": 281.4
-  },
-  {
-    "id": "experience-34",
-    "name": "塞尔达传说系列",
-    "developer": "",
-    "category": "rpg",
-    "cover": "/assets/games/experience/experience-34.webp",
-    "playtime": "250+ 小时",
-    "tags": [
-      "角色扮演／MMORPG"
-    ],
-    "description": "系列累计游玩250+ 小时。",
-    "link": "https://www.nintendo.com/jp/zelda/botw/index.html"
-  },
-  {
-    "id": "experience-33",
-    "name": "宝可梦系列",
-    "developer": "",
-    "category": "rpg",
-    "cover": "/assets/games/experience/experience-33.webp",
-    "playtime": "200+ 小时",
-    "tags": [
-      "角色扮演／MMORPG"
-    ],
-    "description": "系列累计游玩200+ 小时。",
-    "link": "https://www.pokemon.co.jp/ex/sv/ja/"
-  },
-  {
-    "id": "experience-68",
-    "name": "绝地潜兵系列",
-    "developer": "",
-    "category": "party",
-    "cover": "/assets/games/experience/experience-68.webp",
-    "playtime": "200+ 小时",
-    "tags": [
-      "多人合作／派对"
-    ],
-    "description": "系列累计游玩200+ 小时。",
-    "link": "https://store.steampowered.com/app/553850/"
   },
   {
     "id": "experience-25",
@@ -200,12 +183,30 @@ export const gamesData: GameItem[] = [
     "category": "action",
     "cover": "/assets/games/experience/experience-25.webp",
     "playtime": "196 小时",
+    "status": "completed",
+    "rating": 9.8,
     "tags": [
       "硬核／狩猎动作／ARPG"
     ],
-    "description": "累计游玩196 小时。",
+    "description": "小而精美的一部作品，打磨到极致的战斗手感、美术以及地图设计。犹豫，就会败北。",
     "link": "https://store.steampowered.com/app/814380/",
     "hours": 196.0
+  },
+  {
+    "id": "helldivers-2",
+    "name": "绝地潜兵2",
+    "developer": "",
+    "category": "party",
+    "cover": "/assets/games/experience/helldivers-2.webp",
+    "playtime": "188 小时",
+    "status": "completed",
+    "rating": 9,
+    "tags": [
+      "多人合作／派对"
+    ],
+    "description": "为了超级地球。从麦拉芬濛河到上海保卫战，和好朋友一起经历了很多很多。现已回归平民生活",
+    "link": "https://store.steampowered.com/app/553850/",
+    "hours": 188
   },
   {
     "id": "experience-42",
@@ -214,12 +215,28 @@ export const gamesData: GameItem[] = [
     "category": "simulation",
     "cover": "/assets/games/experience/experience-42.webp",
     "playtime": "170 小时",
+    "status": "completed",
+    "rating": 9.8,
     "tags": [
       "策略／模拟／经营／沙盒"
     ],
-    "description": "累计游玩170 小时。",
+    "description": "远离现实的焦虑，在动森的小岛上真的可以让自己真正平静下来，我可以在博物馆里泡一天",
     "link": "https://www.nintendo.com/jp/switch/acbaa/index.html",
     "hours": 170.0
+  },
+  {
+    "id": "zelda-botw",
+    "name": "塞尔达传说：旷野之息",
+    "developer": "",
+    "category": "rpg",
+    "cover": "/assets/games/experience/zelda-botw.webp",
+    "playtime": "150 小时",
+    "tags": [
+      "角色扮演／MMORPG"
+    ],
+    "description": "累计游玩150 小时。",
+    "link": "https://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-switch/",
+    "hours": 150
   },
   {
     "id": "experience-43",
@@ -247,6 +264,20 @@ export const gamesData: GameItem[] = [
     ],
     "description": "累计游玩100+ 小时。",
     "link": "https://store.steampowered.com/app/2229850/"
+  },
+  {
+    "id": "dark-souls-1",
+    "name": "黑暗之魂1",
+    "developer": "",
+    "category": "action",
+    "cover": "/assets/games/experience/dark-souls-1.webp",
+    "playtime": "97.4 小时",
+    "tags": [
+      "硬核／狩猎动作／ARPG"
+    ],
+    "description": "累计游玩97.4 小时。",
+    "link": "https://store.steampowered.com/app/570940/",
+    "hours": 97.4
   },
   {
     "id": "experience-35",
@@ -291,6 +322,20 @@ export const gamesData: GameItem[] = [
     "hours": 89.6
   },
   {
+    "id": "dark-souls-2",
+    "name": "黑暗之魂2",
+    "developer": "",
+    "category": "action",
+    "cover": "/assets/games/experience/dark-souls-2.webp",
+    "playtime": "87.6 小时",
+    "tags": [
+      "硬核／狩猎动作／ARPG"
+    ],
+    "description": "累计游玩87.6 小时。",
+    "link": "https://store.steampowered.com/app/236430/",
+    "hours": 87.6
+  },
+  {
     "id": "experience-30",
     "name": "装甲核心6",
     "developer": "",
@@ -317,6 +362,20 @@ export const gamesData: GameItem[] = [
     "description": "累计游玩62.4 小时。",
     "link": "https://store.steampowered.com/app/851100/",
     "hours": 62.4
+  },
+  {
+    "id": "zelda-totk",
+    "name": "塞尔达传说：王国之泪",
+    "developer": "",
+    "category": "rpg",
+    "cover": "https://images.launchbox-app.com/20c45766-0bc0-410d-ab7c-58b6a4855f75.png",
+    "playtime": "60 小时",
+    "tags": [
+      "角色扮演／MMORPG"
+    ],
+    "description": "累计游玩60 小时。",
+    "link": "https://www.nintendo.com/games/detail/the-legend-of-zelda-tears-of-the-kingdom-switch/",
+    "hours": 60
   },
   {
     "id": "experience-58",
@@ -357,6 +416,20 @@ export const gamesData: GameItem[] = [
     ],
     "description": "系列累计游玩50+ 小时。",
     "link": "https://store.steampowered.com/app/1100140/"
+  },
+  {
+    "id": "pokemon-y",
+    "name": "宝可梦Y",
+    "developer": "",
+    "category": "rpg",
+    "cover": "/assets/games/experience/experience-33.webp",
+    "playtime": "50 小时",
+    "tags": [
+      "角色扮演／MMORPG"
+    ],
+    "description": "累计游玩50 小时。",
+    "link": "https://www.pokemon.com/",
+    "hours": 50
   },
   {
     "id": "experience-61",
@@ -483,6 +556,20 @@ export const gamesData: GameItem[] = [
     "description": "累计游玩25 小时。",
     "link": "https://store.steampowered.com/app/1901370/",
     "hours": 25.0
+  },
+  {
+    "id": "slay-the-spire",
+    "name": "杀戮尖塔",
+    "developer": "",
+    "category": "roguelike",
+    "cover": "/assets/games/experience/slay-the-spire.webp",
+    "playtime": "21.7 小时",
+    "tags": [
+      "Roguelike／卡牌构筑"
+    ],
+    "description": "累计游玩21.7 小时。",
+    "link": "https://store.steampowered.com/app/646570/",
+    "hours": 21.7
   },
   {
     "id": "experience-51",
@@ -793,6 +880,48 @@ export const gamesData: GameItem[] = [
     "hours": 10.0
   },
   {
+    "id": "pokemon-omega-ruby",
+    "name": "宝可梦终极红宝石",
+    "developer": "",
+    "category": "rpg",
+    "cover": "/assets/games/experience/experience-33.webp",
+    "playtime": "10 小时",
+    "tags": [
+      "角色扮演／MMORPG"
+    ],
+    "description": "累计游玩10 小时。",
+    "link": "https://www.pokemon.com/",
+    "hours": 10
+  },
+  {
+    "id": "pokemon-brilliant-diamond",
+    "name": "宝可梦钻石重制版",
+    "developer": "",
+    "category": "rpg",
+    "cover": "/assets/games/experience/experience-33.webp",
+    "playtime": "10 小时",
+    "tags": [
+      "角色扮演／MMORPG"
+    ],
+    "description": "累计游玩10 小时。",
+    "link": "https://www.pokemon.com/",
+    "hours": 10
+  },
+  {
+    "id": "pokemon-shield",
+    "name": "宝可梦盾",
+    "developer": "",
+    "category": "rpg",
+    "cover": "/assets/games/experience/experience-33.webp",
+    "playtime": "10 小时",
+    "tags": [
+      "角色扮演／MMORPG"
+    ],
+    "description": "累计游玩10 小时。",
+    "link": "https://www.pokemon.com/",
+    "hours": 10
+  },
+  {
     "id": "experience-64",
     "name": "失落的遗迹",
     "developer": "",
@@ -819,6 +948,34 @@ export const gamesData: GameItem[] = [
     "description": "累计游玩9.4 小时。",
     "link": "https://store.steampowered.com/app/1623730/",
     "hours": 9.4
+  },
+  {
+    "id": "pokemon-violet",
+    "name": "宝可梦紫",
+    "developer": "",
+    "category": "rpg",
+    "cover": "/assets/games/experience/experience-33.webp",
+    "playtime": "3 小时",
+    "tags": [
+      "角色扮演／MMORPG"
+    ],
+    "description": "累计游玩3 小时。",
+    "link": "https://www.pokemon.com/",
+    "hours": 3
+  },
+  {
+    "id": "helldivers-1",
+    "name": "绝地潜兵",
+    "developer": "",
+    "category": "party",
+    "cover": "/assets/games/experience/helldivers-1.webp",
+    "playtime": "2 小时",
+    "tags": [
+      "多人合作／派对"
+    ],
+    "description": "累计游玩2 小时。",
+    "link": "https://store.steampowered.com/app/394510/",
+    "hours": 2
   },
   {
     "id": "experience-01",
@@ -1129,3 +1286,6 @@ export const gamesData: GameItem[] = [
     "platform": "手机"
   }
 ];
+
+
+

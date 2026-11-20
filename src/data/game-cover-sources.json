@@ -138,12 +138,6 @@
     "image": "https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg"
   },
   {
-    "id": "experience-24",
-    "name": "黑暗之魂系列",
-    "page": "https://store.steampowered.com/app/374320/",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg"
-  },
-  {
     "id": "experience-25",
     "name": "只狼：影逝二度",
     "page": "https://store.steampowered.com/app/814380/",
@@ -190,18 +184,6 @@
     "name": "黑神话：悟空",
     "page": "https://store.steampowered.com/app/2358720/",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg"
-  },
-  {
-    "id": "experience-33",
-    "name": "宝可梦系列",
-    "page": "https://www.pokemon.co.jp/ex/sv/ja/",
-    "image": "https://www.pokemon.co.jp/ex/sv/assets/img/og/ja/fb.jpg"
-  },
-  {
-    "id": "experience-34",
-    "name": "塞尔达传说系列",
-    "page": "https://www.nintendo.com/jp/zelda/botw/index.html",
-    "image": "https://www.nintendo.com/jp/zelda/botw/assets/sns.png"
   },
   {
     "id": "experience-35",
@@ -336,12 +318,6 @@
     "image": "https://cdn.akamai.steamstatic.com/steam/apps/2229850/header.jpg"
   },
   {
-    "id": "experience-57",
-    "name": "杀戮尖塔系列",
-    "page": "https://store.steampowered.com/app/646570/",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/646570/header.jpg"
-  },
-  {
     "id": "experience-58",
     "name": "小丑牌",
     "page": "https://store.steampowered.com/app/2379780/",
@@ -400,12 +376,6 @@
     "name": "雀魂麻将",
     "page": "https://store.steampowered.com/app/1329410/",
     "image": "https://cdn.akamai.steamstatic.com/steam/apps/1329410/header.jpg"
-  },
-  {
-    "id": "experience-68",
-    "name": "绝地潜兵系列",
-    "page": "https://store.steampowered.com/app/553850/",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/553850/header.jpg"
   },
   {
     "id": "experience-69",
@@ -484,5 +454,89 @@
     "name": "怪物猎人GU",
     "page": "https://ec.nintendo.com/NZ/en/titles/70010000004641",
     "image": "https://img-eshop.cdn.nintendo.net/i/138cfc1ff19e64197d0234f70553416c7c7d3c232691b742e96035c71e1d5a07.jpg"
+  },
+  {
+    "id": "dark-souls-1",
+    "name": "黑暗之魂1",
+    "page": "https://store.steampowered.com/app/570940/",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/570940/header.jpg"
+  },
+  {
+    "id": "dark-souls-2",
+    "name": "黑暗之魂2",
+    "page": "https://store.steampowered.com/app/236430/",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/236430/header.jpg"
+  },
+  {
+    "id": "dark-souls-3",
+    "name": "黑暗之魂3",
+    "page": "https://store.steampowered.com/app/374320/",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg"
+  },
+  {
+    "id": "slay-the-spire",
+    "name": "杀戮尖塔",
+    "page": "https://store.steampowered.com/app/646570/",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/646570/header.jpg"
+  },
+  {
+    "id": "slay-the-spire-2",
+    "name": "杀戮尖塔2",
+    "page": "https://store.steampowered.com/app/2868840/",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/2868840/header.jpg"
+  },
+  {
+    "id": "zelda-botw",
+    "name": "塞尔达传说：旷野之息",
+    "page": "https://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-switch/",
+    "image": "local copy of previous cover"
+  },
+  {
+    "id": "zelda-totk",
+    "name": "塞尔达传说：王国之泪",
+    "page": "https://www.nintendo.com/games/detail/the-legend-of-zelda-tears-of-the-kingdom-switch/",
+    "image": "local copy of previous cover"
+  },
+  {
+    "id": "pokemon-y",
+    "name": "宝可梦Y",
+    "page": "https://www.pokemon.com/",
+    "image": "local copy of previous cover"
+  },
+  {
+    "id": "pokemon-omega-ruby",
+    "name": "宝可梦终极红宝石",
+    "page": "https://www.pokemon.com/",
+    "image": "local copy of previous cover"
+  },
+  {
+    "id": "pokemon-brilliant-diamond",
+    "name": "宝可梦钻石重制版",
+    "page": "https://www.pokemon.com/",
+    "image": "local copy of previous cover"
+  },
+  {
+    "id": "pokemon-shield",
+    "name": "宝可梦盾",
+    "page": "https://www.pokemon.com/",
+    "image": "local copy of previous cover"
+  },
+  {
+    "id": "pokemon-violet",
+    "name": "宝可梦紫",
+    "page": "https://www.pokemon.com/",
+    "image": "local copy of previous cover"
+  },
+  {
+    "id": "helldivers-1",
+    "name": "绝地潜兵",
+    "page": "https://www.pokemon.com/",
+    "image": "local copy of previous cover"
+  },
+  {
+    "id": "helldivers-2",
+    "name": "绝地潜兵2",
+    "page": "https://www.pokemon.com/",
+    "image": "local copy of previous cover"
   }
 ]
